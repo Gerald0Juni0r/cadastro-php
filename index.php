@@ -11,18 +11,15 @@
 
 </head>
 <body>
-    <?php
-    
-    ?>
     <h1>Cadastre-se</h1>
 
-    <form id="formulario" action="" method="post">
+    <form id="formulario" method="post" action="recebeForm.php">
         Nome: <input class="input" type="text" name="nome" placeholder="Ex: João" required>
-        Sobrenome: <input class="input" type="text" method="post" placeholder="Ex: Ferreira da Silva">
-        E-mail: <input class="input" type="email" method="post" placeholder="Ex: joaofs58@gmail.com" required>
+        Sobrenome: <input class="input" type="text" name="sobrenome" placeholder="Ex: Ferreira da Silva">
+        E-mail: <input class="input" type="email" name="email" placeholder="Ex: joaofs58@gmail.com" required>
         
-        Senha: <input class="input" type="password" required>
-        Confirmar senha: <input class="input" type="password" required>
+        Senha: <input id="senha" class="input" type="password" name="senha" required>
+        Confirmar senha: <input id="csenha" class="input" type="password" name="csenha" required>
 
         <div>
         <p>Qual o seu gênero?</p> 
