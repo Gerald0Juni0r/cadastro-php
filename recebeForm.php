@@ -15,6 +15,7 @@
         <?php 
             echo "Nome: " . $_POST["nome"] . "<br>" ; 
             echo "Sobrenome: " . $_POST["sobrenome"] . "<br>" ; 
+            echo "Gênero: " . $_POST["genero"] . "<br>" ; 
             echo "Email: " . $_POST["email"] . "<br>" ; 
             echo "Senha: " . $_POST["senha"] . "<br>" ; 
 
@@ -23,6 +24,16 @@
             }
             else{
                 echo "<br> Senha invalida";
+            }
+
+            if($_POST["senha"] >= 8){
+                echo "<br> Senha correta";
+            }
+            else if($_POST["csenha"] >= 8){
+                echo "<br> Senha correta";
+            }
+            else{
+                echo "<br> Senha incorreta";
             }
         ?>
     </div>

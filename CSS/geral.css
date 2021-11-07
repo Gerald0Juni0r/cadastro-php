@@ -15,7 +15,7 @@ h1{
     border-radius: 12px;
     color: white;
 
-    margin: 200px 30%;
+    margin: 0 35%;
     padding: 50px;
 
     display: flex;
@@ -24,9 +24,13 @@ h1{
     
 
 }
+#recebeForm{
+    margin: 15% 30% 0;
+}
 #btn-confirmar {
     background-color: #18acfe;
 
+    width: 200px;
     height: 20px;
     padding: 0 10px;
     margin-top: 7%;
@@ -55,7 +59,10 @@ h1{
 /* Mobile */
 
 @media(max-width: 350px){
-    form{
+    #formulario{
         margin: 0;
+    } 
+    #recebeForm{
+        margin: 50% 0;
     }
   }

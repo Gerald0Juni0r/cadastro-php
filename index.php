@@ -17,15 +17,14 @@
         Nome: <input class="input" type="text" name="nome" placeholder="Ex: João" required>
         Sobrenome: <input class="input" type="text" name="sobrenome" placeholder="Ex: Ferreira da Silva">
         E-mail: <input class="input" type="email" name="email" placeholder="Ex: joaofs58@gmail.com" required>
-        
         Senha: <input id="senha" class="input" type="password" name="senha" required>
         Confirmar senha: <input id="csenha" class="input" type="password" name="csenha" required>
 
         <div>
         <p>Qual o seu gênero?</p> 
-        <input type="radio" class="genero-radio" name="masculino" value="checkedValue"> Masculino <br>
-        <input type="radio" class="genero-radio" name="feminino" value="checkedValue"> Feminino <br>
-        <input type="radio" class="genero-radio" name="outro" value="checkedValue" checked> Outro <br>
+        <input type="radio" class="genero-radio" name="genero" value="Masculino" > Masculino <br>
+        <input type="radio" class="genero-radio" name="genero" value="Feminino" > Feminino <br>
+        <input type="radio" class="genero-radio" name="genero" value="Outro" checked> Outro <br>
         </div>
 
         <button id="btn-confirmar">Confirmar</button>
